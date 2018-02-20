@@ -1,0 +1,1397 @@
+/****************** 4 - RESPONSIVE ***************/
+@media (max-width: 1600px){
+	.Header {
+	}
+}
+@media (min-width: 1300px){
+
+}
+
+
+@media (max-width:1400px) {
+	/* .Formulario {
+		margin-right: 56px;
+	} */
+
+}
+
+@media (max-width:1340px) {
+	/* .Formulario {
+		margin-right: 56px;
+	}
+
+	.openform {
+		margin-right: 77px;
+	} */
+
+}
+
+@media (max-width: 1300px){
+	/* .Formulario {
+		bottom: 40px;
+		width: 35%;
+		margin-right: 73px;
+	}
+
+	.openform {
+		bottom: 376px;
+		margin-right: 73px;
+		width: 35%;
+	} */
+
+	.Header-Nav ul li a {
+		padding: 15px 10px;
+	}
+
+	.TextDescription {
+	    top: 58%;
+	    left: 60%;
+	}
+
+	.AutoDetalleBloque-Formulario{
+		width: 390px;
+	}
+
+	.AutoDetalleBloqueFinal-Info {
+    padding: 55px 45px 55px 70px;
+}
+
+	.Contacto-Formulario {
+		width: 555px;
+}
+
+}
+
+@media (max-width: 1279px){
+	.Formulario {
+		width: 38%;
+		margin-right: 8px;
+		bottom: 40px;
+	}
+
+	.rowcompra #info {
+		padding: 55px 55px;
+		padding-right: 10px;
+}
+
+	.openform {
+		width: 38%;
+		bottom: 302px;
+		margin-right: -1px;
+}
+	}
+
+	.Formulario .Title img {
+		right: 0;
+	}
+
+	.Formulario .Title {
+		font-size: 26px;
+	}
+
+	.rowcompra #info .spantitle {
+		margin-right: 79px;
+	}
+
+	.Seccion-Dondecomprar {
+
+	}
+
+	.rowcompra #mapacervezas {
+		height: 160.5%;
+	}
+
+
+}
+
+@media (max-width: 1230px){
+.Contacto-Formulario {width: 455px;}
+.Line1 {
+    top: -1px;
+}
+
+.openform {
+    width: 35%;
+    bottom: 236px;
+    margin-right: -1px;
+}
+
+
+.Nosotros-Video {
+	position: relative;
+	top: 0;
+
+}
+
+.rowcompra .div-oso {
+	width: 15%;
+	bottom: 134px;
+	left: 42%;
+}
+
+.Formulario .Title {
+	padding-right: 53px;
+}
+
+	.Formulario .Title img {
+		right: -19px;
+		width: 18%;
+	}
+
+.rowcompra #mapacervezas {
+	width: 50%;
+	height: 158.5%;
+}
+
+
+.rowcompra #info {
+	width: 50%;
+	margin-right: 0;
+	padding: 67px 70px;
+
+}
+
+.rowcompra #info .Title {
+	font-size: 42px;
+	line-height: 39px;
+	margin-right: 13px;
+}
+
+.rowcompra #info .spantitle {
+	font-size: 16px;
+	margin-right: 0;
+}
+
+.rowcompra #info .infoestatica h3 {
+	font-size: 30px;
+}
+
+.rowcompra #info .infowindow h3 {
+	font-size: 42px;
+	line-height: 39px;
+}
+
+.rowcompra #info .infowindow span {
+	font-size: 16px;
+	margin-right: 0;
+}
+
+.rowcompra #info .infowindow .nombrebar {
+    font-size: 30px;
+    margin-right: 23px;
+    margin-top: 37px;
+}
+
+.rowcompra #info .infowindow .imgdetalle {
+    margin: 6px 101px 10px 46px;
+    width: 19%;
+}
+
+.rowcompra #info .infowindow .ubicacion {
+	margin-top: 6px;
+}
+
+.rowcompra #info .infowindow img {
+	margin-top: 16px;
+}
+
+.rowcompra #info .infowindow .p-infowindow {
+	margin: 16px 89px;
+	margin-right: 0;
+}
+
+.Dondecomprar-Header .Title span {
+	font-size: 16px;
+}
+
+/* .Seccion-Cervezas .Cervezas-Info {
+	padding-bottom: 140px;
+} */
+
+/* .Nosotros-Text {
+	padding-right: 176px;
+} */
+
+.Formulario {
+	width: 35%;
+	margin-right: -1px;
+}
+
+
+}
+
+
+@media (max-width: 1200px) {
+
+	.Nosotros-Text {
+    padding-right: 40px;
+	}
+
+	.Seccion .Seccion-Header .Title {
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	.Cervezas-Info {
+	  padding: 110px 0px 0 130px;
+	}
+
+	.BotellaCerveza {
+    width: 262px;
+}
+
+}
+
+@media (max-width: 1160px) {
+	.Formulario {
+		width: 37%;
+		margin-right: -15px;
+	}
+
+	.Formulario .Title img {
+		right: -30px;
+	}
+
+	.Formulario .Title {
+		padding-right: 58px;
+		font-size: 25px;
+	}
+
+	.Formulario .Title img {
+		right: -16px;
+		width: 20%;
+	}
+
+	.Cervezas-Info {
+    padding: 44px 0 0px 130px;
+	}
+
+	.BtnSubmit img {
+    display: none;
+}
+
+}
+
+@media (max-width: 1030px) {
+
+	.Formulario {
+    width: 394px;
+    margin-right: -35px;
+}
+}
+
+@media (max-width: 992px){
+.Contacto-Formulario {width: 355px;padding-top: 70px;}
+.Line1 {
+    top: 2px;
+}
+
+.BtnSubmit img {
+    display: none;
+}
+
+.BtnSubmit{
+    font-size: 15px;
+}
+
+	.Nosotros-Text {
+		padding-right: 15px;
+		padding-left: 20px;
+	}
+
+	.Seccion .Nosotros-Text.Seccion-Header .Parrafo {
+    font-size: 17px;
+    line-height: 18px;
+	}
+
+	.Seccion .Nosotros-Text.Seccion-Header .DetalleLine {
+		display: block;
+	}
+
+	.Seccion .Seccion-Header .Title {
+    font-size: 34px;
+    line-height: 28px;
+	}
+
+	.Nosotros-Text .Title .Detalle1 {
+	    left: -25px;
+	    width: 30px;
+	}
+
+
+	.Nosotros-Text .Title .Detalle2 {
+	    right: -20px;
+	    bottom: 12px;
+	    width: 30px;
+	}
+
+	.Formulario {
+		bottom: 30px;
+		width: 40%;
+		padding-left: 14px;
+		margin-right: -15px;
+	}
+
+
+	.openform {
+		bottom: 274px;
+		margin-right: -17px;
+	}
+
+.Formulario .Title {
+	font-size: 21px;
+	padding-right: 69px;
+}
+
+.Formulario .Title img {
+	right: -18px;
+}
+
+	.Header{height: 90px;}
+	.Header-Nav ul li a {
+	    padding: 5px 10px;
+	}
+	.Header-Nav ul li a {
+    	font-size: 14px;
+	}
+	.Header-Contacto{padding: 0px;}
+	.Header-Contacto .Contacto-Btn{width: 100%;padding: 8px 0;height: auto;font-size: 14px;}
+	.Wrapper{}
+	.TextDescription {
+	    top: 58%;
+	    left: 73%;
+	}
+	.VentaBox{background-position: right;}
+	.Equipo-Representante-Content{background-position: right;padding: 30px;}
+	.AutosOkmBox-Header .ImgPrincipal {
+	    float: left;
+	    padding-right: 60px;
+	    width: 75%;
+	    margin-bottom: 25px;
+	}
+	.AutosOkmBox-Header .Description {
+	    width: 100%;
+	}
+	.BloqueDetalle {
+    padding-bottom: 35px;
+}
+.AutoDetalle-BloqueText div:last-child .BloqueDetalle{
+    padding-bottom: 0px;
+}
+.AutoDetalleBloqueFinal-Info {
+    padding: 75px;
+}
+
+
+.rowcompra .infoestatica {
+	padding: 0;
+}
+
+.rowcompra .infoestatica h2{
+	font-size: 10px;
+}
+
+.rowcompra #mapacervezas {
+		width: 50%;
+		height: 121%;
+}
+
+.rowcompra #info {
+	width: 50%;
+	padding: 0;
+	height: 118%;
+}
+
+.rowcompra #info .infowindow {
+	padding: 70px 0;
+}
+
+.Seccion-Dondecomprar {
+	height: 605px;
+}
+
+.rowcompra .Dondecomprar-Header {
+	padding: 70px 0;
+	padding-right: 10px;
+}
+
+.Dondecomprar-Header .Title .Detalle2 {
+	right: 23px;
+	bottom: 44px;
+}
+
+.Dondecomprar-Header .Title .Detalle1 {
+	top: -10px;
+	left: 14px;
+}
+
+.Dondecomprar-Header .Title .Detalle2 {
+	right: 0;
+}
+
+.Dondecomprar-Header .Title span {
+	margin: 12px 0;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.Dondecomprar-Header .Title {
+	text-align: center;
+}
+
+.rowcompra #info .infoestatica {
+	height: 100%;
+}
+
+
+.rowcompra #info .infowindow .imgdetalle {
+	width: 35%;
+}
+
+.rowcompra .infoestatica p {
+	margin-left: 44px;
+	margin-top: 18px;
+}
+
+#info .infoestatica h3 {
+	font-size: 26px;
+}
+
+.rowcompra .div-oso {
+	display: none;
+}
+
+
+.Line4 {
+	top: -127px;
+}
+
+.Dondecomprar-Header .Title .Detalle2_new {
+	display: none;
+}
+
+.BotellaCerveza {
+    width: 220px;
+    margin-left: -65px;
+    top: 20%;
+}
+
+.Cervezas-Info .Title {
+    font-size: 40px;
+    line-height: 30px;
+}
+
+.Cervezas-Info .SubTitle {
+    font-size: 20px;
+}
+
+.Cervezas-Info .DetalleLine {
+    margin: 5px 0 5px 0;
+}
+
+
+.Cervezas-Info .Parrafo {
+    font-size: 15px;
+    line-height: 16px;
+    padding-right: 25px;
+}
+
+.Cervezas-Info .Title img {
+    right: 0px;
+}
+
+.CervezaGarota .Cervezas-Info .Title img {
+    right: 65px;
+}
+
+.CervezaFoxy .Cervezas-Info .Title img {
+    right: 65px;
+}
+
+.CervezaDark .Cervezas-Info .Title img {
+    right: 65px;
+}
+
+.CervezaDark .Cervezas-Info .Title img {
+    right: 65px;
+}
+
+.ListDetalleCerveza {
+    margin-top: 0;
+}
+
+.CervezaSweetherart .Title {
+    width: 160px;
+}
+
+.CervezaGoldFish .Title {
+    width: 175px;
+}
+
+.CervezaAlfred .Title {
+    width: 180px;
+}
+
+.CervezaNess .Title {
+    width: 175px;
+}
+
+.CervezaVulcano .Title {
+    width: 165px;
+}
+
+
+
+
+.Cervezas-Info .Parrafo {
+    font-size: 16px;
+    line-height: 16px;
+    padding-right: 25px;
+}
+
+.Seccion-Cervezas .Cervezas-Info {
+    padding: 52px 0px 0px 80px;
+}
+
+.rowcompra #info .infowindow span {
+	margin-right: 37px;
+}
+
+}
+
+
+@media (max-width: 830px) {
+
+		.Formulario {
+			width: 42%;
+			margin-right: -44px;
+
+		}
+
+		.BtnSubmit img{
+			display: none;
+		}
+
+		.rowcompra #info .infowindow h3 {
+		    font-size: 46px;
+		}
+
+		.openform {
+			width: 43%;
+			margin-right: -52px;
+		}
+
+		.rowcompra #info .spantitle {
+			margin-right: 22px;
+		}
+
+		.Formulario .Title {
+			font-size: 20px;
+		}
+
+		.Formulario .Title img {
+			right: -11px;
+		}
+}
+
+
+@media (max-width: 767px){
+	.BoxIntro .ImgLogo{display: none;}
+	.Intro-Content {height: auto;}
+	.Inicio-Intro video{display: none;}
+	.Header.hasActive {
+		border-top: 0px solid #e1e1e1 !important;
+height: 60px !important;
+padding: 8px 0px 8px 0px !important;
+	}
+
+
+	.Formulario {
+		display: none;
+	}
+
+	.formu {
+		display: none;
+	}
+
+	.formu .close {
+		display: none;
+	}
+
+	.Formulario2 {
+		display: block;
+		padding: 30px 47px 0 47px;
+	}
+
+
+	.seccion_formu {
+		display: block;
+		overflow: hidden;
+		background-color: #f7f5f7;
+		padding: 30px 0;
+	}
+
+	.Formulario2 .Title{
+		font-size: 36px;
+		font-weight: 800;
+		text-align: left;
+		color: #ffbb37;
+		position: relative;
+		margin-bottom: 8px;
+		line-height: 34px;
+	}
+
+	.Formulario2 .Title img{
+		display: none;
+	}
+
+	.Formulario2 .SubTitle{
+		font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #413a43;
+    margin-bottom: 15px;
+	}
+
+
+	.Formulario2 .BoxInput {
+	    float: left;
+	}
+
+	.Formulario2 .BoxInput50{ width: 50%;}
+	.Formulario2 .BoxInput100{ width: 100%;}
+
+	.Formulario2 .BoxInput input{
+	    border: 1px solid #c7c7c7;
+	    width: 100%;
+	    display: inline-block;
+	    text-align: left;
+	    background: #fff;
+	    color: #666;
+	    font-size: 16px;
+	    font-weight: 400;
+	    padding: 10px 15px;
+	}
+
+
+	.Formulario2 .BoxInput textarea{
+	    border: 1px solid #c7c7c7;
+	    border-top: 0.5px solid #c7c7c7;
+	    width: 100%;
+	    text-align: left;
+	    background: #fff;
+	    color: #666;
+	    font-weight: 400;
+	    padding: 7px 15px;
+	    float: left;
+	}
+
+	.Formulario-Box {
+    width: 100%;
+}
+
+	.Formulario2 .BoxInput1 input{border-bottom: 0.5px;border-right: 0.5px;}
+	.Formulario2 .BoxInput2 input{border-bottom: 0.5px;}
+	.Formulario2 .BoxInput3 input{border-bottom: 0.5px;}
+	.Formulario2 .BoxInput input:focus{border: 0.5px solid #40ddd8; color: #000;}
+	.Formulario2 .BoxInput textarea:focus{border: 0.5px solid #40ddd8; color: #000;}
+
+	.Formulario2 .BoxInput input::-webkit-input-placeholder{color:#c7c7c7;opacity:1 !important;}
+	.Formulario2 .BoxInput input::-moz-placeholder{color:#c7c7c7;opacity:1 !important;}
+	.Formulario2 .BoxInput input:-ms-input-placeholder{color:#c7c7c7;opacity:1 !important;}
+	.Formulario2 .BoxInput input:-moz-placeholder{color:#c7c7c7;opacity:1 !important;}
+	.Formulario2 .BoxInput textarea::-webkit-input-placeholder{color:#c7c7c7;opacity:1 !important;}
+	.Formulario2 .BoxInput textarea::-moz-placeholder{color:#c7c7c7;opacity:1 !important;}
+	.Formulario2 .BoxInput textarea:-ms-input-placeholder{color:#c7c7c7;opacity:1 !important;}
+	.Formulario2 .BoxInput textarea:-moz-placeholder{color:#c7c7c7;opacity:1 !important;}
+	.Formulario2 .BtnSubmit {
+	    width: 30%;
+	    height: 40px;
+	    float: right;
+	    background: #ffbb37;
+	    border-radius: 0;
+	    text-align: center;
+	    color: #fff;
+	    font-weight: 700;
+	    border: none;
+	    position: relative;
+	}
+	.Formulario2 .BtnSubmit:hover{
+	    background: #413a43;
+	    color: #fff;
+	}
+	.Formulario2 .BtnSubmit img{margin-left: 10px;}
+
+
+.Header.hasActive .Header-Logo .Logo-Content a img { width: 90px;}
+	.Seccion .Nosotros-Text.Seccion-Header .DetalleLine{
+		display: block;
+width: 260px;
+margin: 15px auto;
+float: none;
+	}
+	.BoxInput1 input {
+    border-bottom: 0.5px;
+    border-right: 1;
+}
+	.Line1 {top: -11px !important; z-index: 2;}
+	/*.hasActive .Line1 {top: -7px; z-index: 2;}*/
+	.Line4 { top: -46px; z-index: 2;}
+	.Line5 { bottom: -42px;}
+
+.Cervezas-Img img {
+    width: 80%;
+    float: none;
+}
+
+
+.rowcompra #mapacervezas {
+	width: 100%;
+	height: 60%;
+}
+
+.rowcompra #info {
+	width: 100%;
+	height: 85%;
+}
+
+.rowcompra .Dondecomprar-Header {
+	margin: 0;
+	width: 100%;
+}
+
+.Seccion .Dondecomprar-Header .Title {
+	padding: 30px;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+
+.Seccion-Dondecomprar .containercompra{
+	top:0;
+	width: 100%;
+	height: 100%;
+}
+
+.Dondecomprar-Header .Title .Detalle2 {
+	display: none;
+}
+
+.Dondecomprar-Header .Title .Detalle2_new {
+	top: 81px;
+	right: 74px;
+	position: absolute;
+}
+
+.Dondecomprar-Header .Title span {
+	margin-top: 10px;
+	text-align: center;
+}
+
+	.SeccionCervezaMobile{padding: 0 !important;}
+
+	.cierra-mobile-cerveza a {
+    position: absolute;
+    padding: 10px 10px 0 0;
+    z-index: 2;
+    right: 0;
+    top: 0;
+}
+	.cierra-mobile-cerveza a img {
+    display: inline-block;
+    width: 15px;
+}
+
+.BotellaCerveza, .Cervezas-Info .Title img, .Cervezas-Info .DetalleLine{display: none;}
+.Cervezas-Info {
+    padding: 20px 25px 0 25px;
+    text-align: center;
+}
+.Cervezas-Info .Title {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+line-height: 28px;
+}
+.Cervezas-Info .SubTitle {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Cervezas-Info .Parrafo {
+font-size: 14px;
+text-align: center;
+line-height: 16px;
+padding-right: 0px;
+}
+.ListDetalleCerveza {
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    padding-left: 20px;
+}
+.ListDetalleCerveza li {
+    float: none;
+    width: 111px;
+    margin-right: 0;
+    display: inline-block;
+    padding: 0 5px;
+}
+.ListDetalleCerveza li img {
+    float: left;
+    margin-right: 2px;
+    width: 42px;
+}
+.ListDetalleCerveza li strong {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+	.Nosotros-Video img {
+    width: 104%;
+}
+		body{margin-top: 59px;}
+	.Cervezas-Menu .BoxIcon{width: 50%;float: left;cursor: pointer;border-bottom: 1px solid #cdcdcd;}
+	.Cervezas-Menu .BoxIcon:nth-child(odd){
+            border-right: 1px solid #cdcdcd;
+        }
+	.Cervezas-Menu .BoxIcon:hover{opacity: 0.5;}
+	.Visitanos-Left .Seccion-Header .Title{text-align: center;}
+	.Nosotros-Text{padding: 0px;text-align: center;}
+
+	.Seccion .Nosotros-Text.Seccion-Header .Title {
+		font-size: 30px;
+		text-align: center;
+	}
+
+
+	.Seccion .Nosotros-Text.Seccion-Header .Parrafo{text-align: center;float: left;}
+
+
+.Formulario .Title img{display: none;}
+	.Visitanos-Left .Seccion-Header {
+    text-align: center;
+}
+.Visitanos-Left {
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.BoxInput50{width: 100%;}
+.BtnSubmit {
+    width: 50%;
+    top: -2px;
+}
+	.Seccion-Visitanos{padding-top: 0px !important;}
+	.Estadisticas-Header .Title span{font-size: 14px;}
+	.Estadisticas-Header .Title {
+	    font-size: 24px;
+	    width: 100%;
+	}
+	.Estadisticas-Header .Title .Detalle1{display: none;}
+	.Estadisticas-Header .Title .Detalle2{display: none;}
+	.Estadisticas-Slider {
+    padding: 0;
+}
+	.Seccion-Cervezas{display: none;}
+	.Seccion-Nosotros{
+		background: #413a43 !important;
+		padding-bottom: 0px;
+		padding: 60px 40px !important;
+		text-align: center;
+	}
+	.Nosotros-Video{padding: 0px;margin-top: 0px;}
+	.BoxIntro{bottom: 50px;}
+	.BoxIntro .Parrafo{margin: 0px;}
+	.BoxIntro .Img img{width: 	20px}
+	.Contacto-Header .Seccion-Header {
+    padding: 25px 15px;
+}
+	.Contacto-Header{margin-bottom: 25px;height: auto;}
+	.Contacto-Header .Seccion-Header .Title {
+font-size: 26px;
+}
+	.Contacto-Content{
+		padding-top: 0 !important;
+	}
+	.Contacto-Formulario {
+	    width: 100%;
+	    margin-bottom: 25px;
+	    padding-top: 0;
+	}
+
+
+
+	.Footer{
+		height: auto;
+	}
+	.Footer .Text {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Footer .Redes {
+    float: left;
+    text-align: left;
+    padding-right: 50px;
+    line-height: 16px;
+    width: 225px;
+    position: relative;
+}
+	.Seccion-AutoDetalleBloqueContacto{background-size: cover;}
+	.AutoDetalleBloque-Formulario {
+    width: 360px;
+}
+.AutoDetalleBloque-ContactoInfo {
+    margin-top: 45px;
+}
+	.AutoDetalleBloqueFinal-Info {
+    padding: 55px;
+}
+	.BloqueDetalle{
+    width: 100%;
+	}
+	.SeccionAutoDetalle .AutoDetalle-Header .TexInfo .Parrafo {
+    width: 100%;
+}
+	.Wrapper {}
+	.AutoBox{width: 100%;}
+	.AutoBox .Img{width: 100%;}
+	.Header{border-top: 0px solid #e1e1e1;height: 60px !important;padding: 8px 0px 8px 0px;}
+	.Header .Header-Nav{display: none;}
+	.Header .Header-Contacto{display: none;}
+	.icon-menu-mobile{display: inline-block;padding: 4px 0px;}
+	.Header-Nav {
+	    margin-bottom: 15px;
+	    /*padding-bottom: 15px;*/
+	    /*border-bottom: 1px solid #cdcdcd;*/
+	}
+	.Header-Nav ul {
+	    width: 100%;
+	}
+	.Header-Nav ul li {
+	    width: 100%;
+	    text-align: center;
+	}
+	.Header-Nav ul li a {
+	    padding: 15px;
+	    width: 100%;
+	    font-size: 16px;
+	}
+	.Header-Logo .Logo-Content a img {
+	    width: 90px;
+	}
+	.Header-Contacto .Contacto-Btn {
+	    float: none;
+	    width: 150px;
+	    height: 50px;
+	    text-align: center;
+	    background: #0067ac;
+	    padding: 12px 0;
+	    color: #fff;
+	    font-size: 16px;
+	    box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+	    border: 1px solid #0067ac;
+	    display: inline-block;
+	}
+	.TextDescription{
+		left: 15px;
+		-webkit-transform: translate(0%, -80%);
+		transform: translate(0%, -80%);
+		width: 90%;
+	}
+	.TextDescription .Title {
+	    font-size: 35px;
+	    margin-bottom: 10px;
+	}
+	.TextDescription .Parrafo {
+	    font-size: 18px;
+	    line-height: 22px;
+	}
+	.TextDescription .Link{font-size: 14px;}
+	.Equipo-Venta, .Equipo-Representante {
+	    padding: 0px 5px;
+	}
+	.AutosOkmBox-Header .ImgPrincipal {
+	    padding-right: 0px;
+	    width: 100%;
+	    margin-bottom: 25px;
+	}
+	.AutosOkm-Header {
+    margin-bottom: 30px;
+}
+.Seccion {
+	padding: 30px 0 45px 0;
+	}
+	.AutosOkmBox-Footer .List{height: auto;}
+	.Bloque3-Header .Parrafo {
+    padding: 0;
+}
+
+
+.Seccion-Dondecomprar {
+	padding-bottom: 0;
+	height: 727px;
+}
+
+
+.rowcompra #info .DetalleLine {
+	width: 42%;
+}
+
+.rowcompra #info .infowindow .imgdetalle {
+	width: 39%;
+}
+
+
+.rowcompra #info .Title {
+	margin-right: 30px;
+}
+
+.Formulario2 .SubTitle span {
+	display: none;
+}
+
+
+}
+
+
+
+@media (max-width: 500px){
+	.AutosOkmBox-Header {padding: 20px 20px 20px 20px;}
+	.AutosOkmBox-Header .Description .List {
+	    width: 100%;
+	}
+	.AutosOkmBox-Footer .List li{
+		border-left: 0px solid #e1e1e1;
+		width: 40%;
+	}
+	.AutosOkmBox-Footer .List li a{width: 100%;text-align: center;padding: 25px 15px;}
+	.AutosOkmBox-Footer .List li:first-child {
+	    width: 100%;
+	    border-bottom: 1px solid #e1e1e1;
+	}
+	.AutosOkmBox-Footer .List li:last-child{
+		border-left: 1px solid #e1e1e1;
+		width: 60%;
+	}
+	.AutoDetalleBloqueFinal-Info {
+    padding: 20px;
+}
+.SeccionAutoDetalle .AutoDetalle-Header .Title {
+    margin-bottom: 35px;
+}
+.SeccionAutoDetalle {
+    padding: 35px 0 35px 0;
+    }
+.SeccionAutoDetalle .AutoDetalle-Header .Title img{
+	width: 100%;
+}
+
+.Seccion .Dondecomprar-Header .Title {
+	text-align: center;
+	font-size: 27px;
+	position: relative;
+	margin: 29px 0 0;
+}
+
+.Formulario2 .Title, .Formulario2 .SubTitle{
+	text-align: center;
+}
+
+.Formulario2 {
+	padding: 20px 17px 0 16px;
+}
+
+.rowcompra .div-oso {
+	width: 23%;
+}
+
+.Seccion-Dondecomprar {
+	padding-bottom: 0;
+}
+
+.Dondecomprar-Header .Title .Detalle2_new {
+	display: none;
+}
+
+.Dondecomprar-Header .Title .Detalle2 {
+	display: none;
+}
+
+.Dondecomprar-Header .Title .Detalle1 {
+	display: inline;
+	position: absolute;
+	top: 10px;
+	left: 22px;
+}
+
+.Dondecomprar-Header .Title .Detalle3 {
+	display: none;
+}
+
+.Dondecomprar-Header .Title span {
+	text-align: center;
+}
+
+.rowcompra #info .infowindow span {
+	margin-right: 36px;
+	text-align: center;
+	margin-left: 33px;
+}
+
+.rowcompra #info .infowindow h3 {
+	font-size: 36px;
+	margin-right: 0;
+	margin-left: 0;
+	text-align: center;
+}
+
+.rowcompra #info .Title {
+	font-size: 36px;
+}
+
+.rowcompra #info .spantitle {
+	margin-right: 20px;
+	text-align: center;
+	margin-left: 20px;
+}
+
+.rowcompra #info .Title {
+	text-align: center;
+	margin-left: 10px;
+}
+
+.rowcompra #info .infowindow {
+	padding-top: 60px;
+}
+
+.rowcompra .Dondecomprar-Header {
+	padding-top: 60px;
+}
+
+.rowcompra #info .infowindow .nombrebar {
+	font-size: 27px;
+	margin-right: 14px;
+	margin-bottom: 19px;
+	line-height: 33px;
+}
+
+.rowcompra #info .infoestatica h3 {
+	font-size: 27px;
+	line-height: 33px;
+	margin-right: 14px;
+}
+
+.rowcompra #info .infowindow .imgdetalle {
+	margin-top: 14px;
+	width: 78%;
+	margin-left: 44px;
+}
+
+.rowcompra #info .DetalleLine {
+	width: 83%;
+}
+
+.rowcompra #info .infowindow .ubicacion {
+	margin-top: -4px;
+}
+
+
+
+}
+
+
+@media (max-width: 380px){
+	.AutoDetalleBloque-Formulario {
+    width: 100%;
+}
+
+.Formulario2 .Title {
+	font-size: 31px;
+}
+
+.Donde-comprar-Header .Title{
+	font-size: 30px;
+	text-align: center;
+}
+
+	.TextDescription .Title {
+	    font-size: 24px;
+	    margin-bottom: 5px;
+	}
+	.TextDescription .Parrafo {
+	    font-size: 14px;
+	    line-height: 18px;
+	}
+	.TextDescription .Link{font-size: 12px;}
+.AutosOkmBox-Footer .List li{
+		border-left: 0px solid #e1e1e1;
+	    border-bottom: 1px solid #e1e1e1;
+
+		width: 100%;
+	}
+	.AutosOkmBox-Footer .List li a{width: 100%;text-align: left;padding: 25px 25px;}
+	.AutosOkmBox-Footer .List li:first-child {
+	    width: 100%;
+	    border-bottom: 1px solid #e1e1e1;
+	}
+	.AutosOkmBox-Footer .List li:last-child{
+		border-left: 0px solid #e1e1e1;
+	    border-bottom: 0px solid #e1e1e1;
+		width: 100%;
+	}
+
+	.Seccion-Dondecomprar {
+		padding-bottom: 40px;
+		padding-top: 0;
+	}
+
+	.Seccion .Dondecomprar-Header .Title {
+		font-size: 30px;
+		text-align: center;
+		padding: 0;
+		line-height: 35px;
+	}
+
+	.Dondecomprar-Header .Title .Detalle1 {
+		display: none;
+	}
+
+	.Dondecomprar-Header .Title .Detalle2 {
+		display: none;
+	}
+
+	.Dondecomprar-Header .Title span {
+		font-weight: normal;
+		line-height: normal;
+		font-size: 16px;
+		margin: 15px 0 0;
+		width: 100%;
+
+	}
+
+	.Seccion-Dondecomprar {
+		padding-bottom: 0;
+	}
+
+
+	.rowcompra .Dondecomprar-Header {
+		margin: 0;
+		padding: 47px 0;
+		width: 100%;
+	}
+
+
+.rowcompra #info .Title {
+		text-align: center;
+		margin-left: 18px;
+}
+
+.rowcompra #info .spantitle {
+	width: 85%;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 27px;
+}
+
+.rowcompra #info .DetalleLine {
+	width: 79%;
+
+}
+
+.rowcompra #info .infowindow {
+	padding: 47px 0;
+}
+
+.rowcompra #info .infowindow h3 {
+	margin: 0;
+	text-align: center;
+	margin-left: 0;
+}
+
+.rowcompra #info .infowindow .imgdetalle {
+	width: 75%;
+	margin-left: 48px;
+}
+
+.rowcompra #info .infowindow span {
+	text-align: center;
+	margin: 10px 33px;
+}
+
+.rowcompra #info .infoestatica {
+	margin-left: 45px;
+	margin-right: 27px;
+}
+
+.rowcompra #info .infowindow .nombrebar{
+	margin-right: 35px;
+	font-size: 25px;
+}
+
+
+.rowcompra #info .infoestatica h3{
+	font-size: 25px;
+}
+
+.rowcompra #info .infowindow .p-infowindow{
+	margin-top: 18px;
+}
+
+.rowcompra #info .infowindow .p-infowindow {
+	margin-top: 18px;
+}
+
+	.rowcompra #mapacervezas {
+		width: 100%;
+		height: 50%;
+		display: block;
+	}
+
+	.rowcompra #info {
+		width: 100%;
+		height: 50%;
+		display: block;
+	}
+
+
+	.rowcompra #info .infowindow h2 {
+		font-size: 22px;
+	}
+
+
+	.rowcompra #info .infowindow p {
+		font-size: 16px;
+	}
+
+	/* .rowcompra #info .infowindow h2 {
+		font-size: 22px;
+	} */
+
+	#info .infoestatica h3 {
+		font-size: 22px;
+	}
+
+.rowcompra .infoestatica p {
+	font-size: 16px;
+}
+
+.Dondecomprar-Header .Title .Detalle2_new {
+	display: none;
+}
+
+@media (max-width: 320px) {
+
+	.Seccion .Dondecomprar-Header .Title {
+		margin-top: 46px;
+	}
+
+}
+
+
+}

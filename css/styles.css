@@ -1,0 +1,905 @@
+html{height:100%;overflow-x: hidden;}
+body{
+    position: relative;
+    margin-top: 90px;
+    overflow-x: hidden;
+    font-size:18px;
+    line-height: 1.5;
+    color:#414141;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:normal;
+    background-color:#fff;
+    text-align:center;
+}
+h1, h2, h3, h4, h5, h6, p, ul{padding:0;margin:0;}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+ul, li{list-style:none;}
+p{font-size: 18px;color: #414141;line-height: 1.5;font-family: 'Source Sans Pro', sans-serif;margin-bottom: 15px;}
+a,button,i,h4,.LinkVideo,.Header.hasActive .Header-Nav ul li a,.Header,.Header-Logo .Logo-Content a img,.ListCervezas li img,.Cervezas-Content, .HoverActive, .BotonTop,.Cervezas-Info .Title,.CervezaActive{
+    text-decoration:none;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+}
+a:hover{text-decoration:none;}
+
+.Wrapper{display: block;max-width:1600px;width:100%;margin:0 auto;position:relative;}
+
+.Top{position: relative;top: 0px;}
+.BodyScroll{position: relative;top: 120px;}
+
+/* SECCION */
+.Seccion{display: block;width: 100%;padding: 60px 0 140px 0;background: #fff;}
+.Seccion .Seccion-Header .Title{margin-bottom: 60px;font-weight: 700; font-size: 52px;line-height: 44px;text-align: left;}
+
+/* END SECCION */
+
+.Line1{
+    width: 110%;
+    position: relative;
+    left: -35px;
+    top: 0px;
+}
+.Line2{
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: -87px;
+}
+.Line3{
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 2px;
+    z-index: 2;
+}
+
+.Line4{
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: -128px;
+}
+.Line5{
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: -110px;
+    z-index: 2;
+}
+
+.ContainerCerveza{
+        position: relative;
+    top: 25px;
+}
+
+.hasScrolled {
+    display: block !important;
+}
+.BotonTop {
+    position: fixed;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #ffbb37;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    right: 15px;
+    bottom: 15px;
+    display: none;
+}
+.BotonTop:hover {
+    color: #ffbb37;
+    background: #413a43;
+}
+
+/* HEADER */
+.Header{
+    padding: 25px 30px 0 30px;
+    width: 100%;
+    float: left;
+    max-width: 1600px;
+    position: fixed;
+    z-index: 5;
+    top: 0px;
+    background: #fff;
+    height: 90px;
+}
+
+.HoverActive{
+    position: absolute;
+    bottom: 0;
+    width: 90px;
+    left: 50%;
+    margin-left: -45px;
+    z-index: 2;
+    opacity: 0;
+}
+
+.Header-Nav{}
+.Header-Nav ul{float: right;}
+.Header-Nav ul li{float: left;}
+.Header-Nav ul li a{color: #413a43; font-size: 15px;padding: 12px 20px;float: left;font-weight: 700;position: relative;cursor: pointer;}
+.Header-Nav ul li a:hover{color: #ffbb37;}
+.Header-Nav ul li a.active{color: #ffbb37;}
+.Header-Nav ul li a:hover .HoverActive{opacity: 1;}
+.Header-Nav ul li a.active .HoverActive{opacity: 1;}
+
+.Header-Logo{text-align: center;padding: 0 0 0 15px;}
+.Header-Logo .Logo-Content{float: left;padding-top: 0px;}
+.Header-Logo .Logo-Content a{cursor: pointer;cursor: pointer;float: left;}
+.Header-Logo .Logo-Content a:hover{opacity: 0.7;}
+.Header-Logo .Logo-Content a img{width: 90px;}
+
+.Header.hasActive {padding: 10px 0px 0 0px;height: 60px;}
+.Header.hasActive .Line1 {top: -8px;}
+.Header.hasActive .Header-Logo .Logo-Content a img { width: 80px;}
+.Header.hasActive .Header-Nav ul li a {font-size: 14px; padding: 10px 20px;}
+
+/* END HEADER */
+
+/* INTRO */
+.Inicio-Intro{display: block;width: 100%;position: relative;overflow: hidden;}
+.Inicio-Intro video{
+    position: absolute;
+    top: 51%;
+    left: 51%;
+    min-width: 102%;
+    min-height: 102%;
+    width: auto;
+    height: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+    .Intro-Content{padding: 0px;position: relative;z-index: 2;height: 580px;}
+    .Intro-Content .ImgBg{width: 100%;}
+
+
+        .BoxIntro{
+            position:absolute;
+            width:400px;
+            left:50%;
+            margin-left:-200px;
+            bottom: 30px;
+        }
+        .BoxIntro .ImgLogo{
+            margin-bottom: 60px;
+        }
+        .BoxIntro .Parrafo{
+          font-size: 18px;
+          font-weight: 700;
+          text-align: center;
+          color: #f7f5f7;
+          text-transform: uppercase;
+        }
+        .BoxIntro .Img{
+            width: 45px;
+            cursor: pointer;
+            position: relative;
+            top: 0px;
+        }
+        .BoxIntro:hover .Img{
+            top: 10px;
+
+        }
+
+/* END INTRO */
+
+/* NOSOTROS */
+
+.Seccion-Nosotros{
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(left, #ffffff 0%, #ffffff 36%, #413a43 36%, #413a43 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ffffff 0%,#ffffff 36%,#413a43 36%,#413a43 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ffffff 0%,#ffffff 36%,#413a43 36%,#413a43 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#413a43',GradientType=1 ); /* IE6-9 */
+}
+
+.Nosotros-Video{
+
+}
+
+.LinkVideo{
+    float: left;
+    background: #ffff;
+    cursor: pointer;
+    position: relative;
+z-index: 1;
+}
+.LinkVideo:hover img{opacity: 0.9;box-shadow: 5px 5px 5px rgba(0,0,0,0.2);}
+.Nosotros-Video img{width: 100%;opacity: 1;}
+
+.Nosotros-Text{
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-right: 115px;
+}
+
+.Nosotros-Text .Title .Detalle1{
+    position: absolute;
+    left: -28px;
+    top: -35px;
+}
+.Nosotros-Text .Title .Detalle2{
+    position: absolute;
+    right: -30px;
+    bottom: 12px;
+}
+
+.Seccion .Nosotros-Text.Seccion-Header .Title{color: #fff;margin-bottom: 0px;position: relative;}
+.Seccion .Nosotros-Text.Seccion-Header .Title span{color: #ffbb37;display: block;font-weight: 700;font-size: 16px;}
+.Seccion .Nosotros-Text.Seccion-Header .Parrafo{margin-bottom: 15px;color: #fff;text-align: left;line-height: 21px;}
+
+.Seccion .Nosotros-Text.Seccion-Header .DetalleLine{
+  margin: 20px 0 20px 0;
+}
+
+.Seccion .Nosotros-Text.Seccion-Header span {
+  font-weight: normal;
+}
+
+.activeVideo{display: none;}
+
+.Video{
+    display: inline-block;
+width: 100%;
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 87%;
+    height: 93%;
+}
+
+/* CERVEZAS */
+.Seccion-Cervezas{
+    background: #ffffff;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.Cervezas-Content{
+    float: left;
+width: 100%;
+position: relative;
+opacity: 0;
+height: 0;
+overflow: hidden;
+}
+
+.CervezaActive{
+    opacity: 1;
+    height: auto;
+    background: #fbfafb;
+}
+
+.ContainerMenosTop{
+    position: relative;
+    top: 40px;
+}
+
+.ListCervezas{
+    height: 50px;
+    padding: 0px 30px 0px 30px;
+    position: relative;
+    top: -10px;
+}
+/*.BoxIcon.slick-slide:focus, .LinkVideo:focus, .Nosotros-Video {
+    outline: none;
+}*/
+:focus{
+    outline: none !important;
+}
+.ListCervezas .BoxIcon {cursor: pointer;position: relative;display: inline-block;}
+.ListCervezas .BoxIcon:hover .ImgGris{opacity: 0;}
+.ListCervezas .BoxIcon:hover .ImgColor{opacity: 1;}
+.ListCervezas .BoxIcon .active .ImgColor{opacity: 1;}
+.ListCervezas .BoxIcon .ImgGris{}
+.ListCervezas .BoxIcon .ImgColor{opacity: 0;position: absolute;left: 0;top: 0;}
+
+/* 
+.ListCervezas .BoxIcon {
+  pointer-events: none;
+} */
+
+.slick-prev::before {
+    font-family: FontAwesome;
+    content: "\f0a8";
+    font-size: 32px;
+    color: white;
+}
+.slick-next::before {
+    font-family: FontAwesome;
+    content:  "\f0a9";
+    font-size: 32px;
+    color: black;
+}
+
+.slick-next {
+  right: 19px;
+}
+
+
+.Cervezas-Menu{
+        padding: 10px 0 40px 0;
+    position: relative;
+    top: 34px;
+    background: #fff;
+}
+
+.BotellaCerveza{
+    position: absolute;
+    width: 320px;
+    left: 50%;
+    margin-left: -90px;
+    z-index: 2;
+    top: 20%;
+}
+
+.Cervezas-Img{padding: 0px;}
+.Cervezas-Img img{
+        width: 100%;
+    float: right;
+    max-width: 683px;
+}
+
+.CervezaSweetherart .Cervezas-Img {background: #febc1f;}
+.CervezaNess .Cervezas-Img {background: #0139b4;}
+.CervezaPiggy .Cervezas-Img {background: #1b1231;}
+.CervezaGarota .Cervezas-Img {background: #ff7578;}
+.CervezaSuperStar .Cervezas-Img {background: #00c130;}
+.CervezaVulcano .Cervezas-Img {background: #ffc6a9;}
+.CervezaLittle .Cervezas-Img {background: #006b71;}
+.CervezaFoxy .Cervezas-Img {background: #f60c0d;}
+.CervezaDark .Cervezas-Img {background: #35006a;}
+.CervezaPanter .Cervezas-Img {background: #000000;}
+.CervezaGoldFish .Cervezas-Img {background: #00ded9;}
+.CervezaAlfred .Cervezas-Img {background: #312c33;}
+
+.Cervezas-Info{background: #fbfafb;padding: 135px 100px 0px 190px;}
+.Cervezas-Info .Title{
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+    color: #ffbb37;
+    position: relative;
+    line-height: 50px;
+    opacity: 0;
+}
+.CervezaActive .Cervezas-Info .Title{opacity: 1;}
+.CervezaSweetherart .Title{width: 210px;}
+.CervezaSweetherart .Cervezas-Info .Title img{right: 4px;}
+
+.CervezaAlfred .Title{width: 230px;color: #332f35;}
+.CervezaAlfred .Cervezas-Info .Title img {right: 2px;}
+
+.CervezaPiggy .Title{width: 120px;color: #1f1933;}
+.CervezaPiggy .Cervezas-Info .Title img {right: 4px;}
+
+.CervezaNess .Title{width: 230px;color: #093caf;}
+.CervezaNess .Cervezas-Info .Title img {right: 4px;}
+
+.CervezaGoldFish .Title{width: 235px;color: #40ddd8;}
+.CervezaGarota .Title{width: 350px;color: #ff7476;}
+.CervezaSuperStar .Title{width: 120px;color: #00c142;}
+.CervezaVulcano .Title{width: 235px;color: #ffc5a9;}
+.CervezaLittle .Title{width: 275px;color: #006b70;}
+.CervezaFoxy .Title{width: 310px;color: #d21414;}
+.CervezaDark .Title{width: 310px;color: #300068;}
+.CervezaPanter .Title{width: 310px;color: #1f1933;}
+.CervezaPanter .Title img{
+    position: absolute;
+right: 110px !important;
+top: 60px !important;
+}
+
+.Cervezas-Info .Title img{position: absolute;right: 0px; top: -15px;}
+
+.Cervezas-Info .SubTitle{
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  color: #413a43;
+  text-transform: uppercase;
+}
+.Cervezas-Info .DetalleLine{float: left;margin: 10px 0 15px 0;}
+.Cervezas-Info .Parrafo{
+  font-size: 18px;
+  text-align: left;
+  color: #413a43;
+  line-height: 20px;
+  font-weight: normal;
+  float: left;
+  padding-right: 60px;
+}
+
+.ListDetalleCerveza{float: left;width: 100%;margin-top: 15px;}
+.ListDetalleCerveza li {
+float: left;
+width: 135px;
+margin-right: 15px;
+}
+.ListDetalleCerveza li img {
+    float: left;
+    margin-right: 10px;
+}
+.ListDetalleCerveza li span {
+font-size: 14px;
+font-weight: 700;
+text-align: left;
+color: #bababa;
+float: left;
+line-height: 20px;
+margin-right: 25px;
+}
+.ListDetalleCerveza li strong {
+float: left;
+font-size: 28px;
+font-weight: bold;
+line-height: 30px;
+}
+
+/* DONDE COMPRAR */
+
+.Seccion-Dondecomprar{
+    background: #fff;
+    overflow: hidden;
+    display: block;
+    padding-top: 0;
+    margin-top: -15px;
+    position: relative;
+    height: 585px;
+    width: 100%;
+}
+
+.rowcompra .Dondecomprar-Header{
+  padding: 0;
+  margin-left: 0;
+}
+
+
+.Seccion .Dondecomprar-Header .Title{
+    position: relative;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+
+.Dondecomprar-Header .Title span{
+  display: block;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  font-weight: normal;
+}
+
+.Seccion-Dondecomprar .containercompra {
+  width: 100%;
+
+}
+
+.Seccion-Dondecomprar .rowcompra {
+  height: 500px;
+}
+
+.rowcompra #mapacervezas {
+  width: 50%;
+}
+
+.rowcompra #info {
+  float: left;
+  height: 129%;
+  background-color: white;
+  text-align: left;
+  width: 50%;
+  padding: 55px 107px;
+}
+
+.rowcompra #info .Title {
+  font-size: 48px;
+  text-align: left;
+  color: #ffbb37;
+  line-height: 43px;
+  margin-left: 46px;
+  font-weight: bold;
+}
+
+.rowcompra #info .spantitle {
+  text-align: left;
+  line-height: 20px;
+  margin: 4px 101px 0 0;
+  color: #414141;
+  font-weight: bold;
+  display: block;
+}
+
+.rowcompra #info .infoestatica {
+  height: 100%;
+  margin: 0 46px;
+}
+
+.rowcompra #info .infoestatica h3{
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 37px;
+}
+
+.rowcompra #info .infoestatica p{
+  font-weight: normal;
+  margin: 18px 0;
+  margin-bottom: 33px;
+  margin-left: 43px;
+}
+
+.rowcompra #info .infoestatica .ubicacion {
+  position: absolute;
+}
+
+.rowcompra #info .infoestatica .web {
+  position: absolute;
+}
+
+
+
+.rowcompra #info .infowindow {
+  padding: 0;
+  height: 100%;
+}
+
+.rowcompra #info .infowindow h3 {
+    font-size: 48px;
+    text-align: left;
+    color: #ffbb37;
+    line-height: 43px;
+    font-weight: bold;
+    margin-left: 46px;
+}
+
+.rowcompra #info .infowindow span {
+  text-align: left;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 4px 101px 10px 46px;
+  color: #414141;
+  font-weight: bold;
+  display: block;
+}
+
+.rowcompra #info .infowindow img {
+  position: absolute;
+  margin: 15px 101px 10px 46px;
+}
+
+.rowcompra #info .infowindow .imgdetalle {
+    display: block;
+    margin: 8px 101px 10px 47px;
+    width: 17%;
+}
+
+
+.rowcompra #info .infowindow .nombrebar {
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 42px;
+    margin: 40px 23px 10px 46px;
+    color: #414141;
+}
+
+.rowcompra .div-oso{
+  overflow: hidden;
+  width: 50%;
+}
+
+.rowcompra .div-oso {
+  width: 10%;
+  position: absolute;
+  z-index: 20;
+  bottom: 107px;
+  left: 45%;
+}
+
+.rowcompra .div-oso img {
+  width: 100%;
+}
+
+.rowcompra #info .DetalleLine {
+  width: 56%;
+}
+
+.rowcompra #info .infowindow h2, p {
+  color: #414141;
+  font-weight: bold;
+}
+
+.rowcompra #info .infowindow h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.rowcompra #info .infowindow p {
+  margin-bottom: 33px;
+  margin: 15px 101px 28px 89px;
+}
+
+
+.rowcompra #info .infowindow .ubicacion {
+  position: absolute;
+  margin-top: 8px;
+}
+
+.rowcompra #info .infowindow .p-infowindow {
+  margin: 18px 0;
+  font-weight: normal;
+  margin-left: 89px;
+}
+
+.rowcompra #info .infowindow .p-infowindow2 {
+  margin: 33px 0;
+  font-weight: normal;
+  margin-left: 89px;
+}
+
+/* ESTADISTICAS */
+.Seccion-Estadisticas{
+    background: #ff7476;
+    padding: 115px 0 115px 0;
+}
+
+.Estadisticas-Header{text-align: center;margin-bottom: 40px;}
+.Estadisticas-Header .Title{
+    position: relative;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    width: 440px;
+    margin: 0 auto;
+}
+.Estadisticas-Header .Title span{display: block;font-size: 18px;margin-bottom: 10px;}
+.Estadisticas-Header .Title .Detalle1{position: absolute;left: -15px;top: 10px;}
+.Estadisticas-Header .Title .Detalle2{position: absolute;right: -15px;bottom: 0;}
+
+.Estadisticas-Slider{padding: 0 145px;}
+
+.slideEstadistica{text-align: center;}
+.BgTurno{background: url("../images/estadisticas/bg-turno.png");background-position: center;background-repeat: no-repeat;}
+.BgEstilo{background: url("../images/estadisticas/bg-estilo.png");background-position: center;background-repeat: no-repeat;}
+.BgNasa{background: url("../images/estadisticas/bg-nasa.png");background-position: center;background-repeat: no-repeat;}
+.BgTorta{background: url("../images/estadisticas/bg-torta.png");background-position: center;background-repeat: no-repeat;}
+.BgMapa{background: url("../images/estadisticas/bg-mapa.png");background-position: center;background-repeat: no-repeat;}
+.BgPeople{background: url("../images/estadisticas/bg-people.png");background-position: center;background-repeat: no-repeat;}
+.TextEstadistica {padding: 0 0 30px 0;}
+.TextEstadistica .Img{display: inline-block;}
+.TextEstadistica .Title{
+  font-size: 87px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+.TextEstadistica .Parrafo{
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  line-height: 18px;
+}
+
+#map-canvas {
+    width: 100%;
+    height: 400px;
+    background: #fff;
+}
+
+/* VISITANOS */
+
+.Seccion-Visitanos{background: #fff; padding: 0;}
+    .Visitanos-Left{background: url("../images/reserva/bg-reserva-left.png");background-size: cover;padding-left: 100px;padding-top: 160px;padding-bottom: 70px;}
+        .Visitanos-Left .Seccion-Header{text-align: left;}
+        .Visitanos-Left .Seccion-Header .Img{margin-bottom: 20px;}
+        .Visitanos-Left .Seccion-Header .Parrafo{color: #fff;font-weight: 700;margin-bottom: 10px;}
+        .Visitanos-Left .Seccion-Header .Title{
+            color: #fff;
+            line-height: 35px;
+            margin-bottom: 340px;
+            font-size: 35px;
+        }
+        .Visitanos-Left .Seccion-Header .Link{color: #fff;font-weight: 700;}
+        .Visitanos-Left .Seccion-Header .Link img{color: #fff;margin-right: 10px;}
+
+    .Visitanos-Right{padding: 0px;margin-bottom: 15px;}
+        .Mapa{height: 350px;}
+        .Mapa iframe{display: block;}
+
+        .Formulario{
+          padding: 7px 21px 0 24px;
+          width: 32%;
+          float: right;
+          position: absolute;
+          bottom: 40px;
+          margin-right: 43px;
+          right: 72px;
+          background-color: #f7f5f7;
+        }
+
+        .Formulario .Title{
+            font-size: 23px;
+            font-weight: 800;
+            text-align: left;
+            color: #ffbb37;
+            position: relative;
+            padding-right: 91px;
+            margin-bottom: -22px;
+            line-height: 34px;
+        }
+        .Formulario .Title img{
+            float: right;
+            position: absolute;
+            right: 12px;
+            top: 10px;
+        }
+        .Formulario .SubTitle{
+          font-size: 13px;
+          font-weight: bold;
+          text-align: left;
+          color: #413a43;
+          margin-bottom: 15px;
+        }
+
+.openform {
+  bottom: 286px;
+  background-color: #f7f5f7;
+}
+
+
+.Formulario .Formulario-Box {
+  position: absolute;
+  float: right;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Formulario .BoxInput {
+    float: left;
+}
+.Formulario .BoxInput50{ width: 50%;}
+.Formulario .BoxInput100{ width: 100%;}
+
+.BoxInput input{
+    border: 1px solid #c7c7c7;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    background: #fff;
+    color: #666;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 15px;
+}
+
+
+.BoxInput textarea{
+    border: 1px solid #c7c7c7;
+    border-top: 0.5px solid #c7c7c7;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    background: #fff;
+    color: #666;
+    font-weight: 400;
+    padding: 7px 15px;
+    float: left;
+}
+
+.BoxInput1 input{border-bottom: 0.5px;border-right: 0.5px;}
+.BoxInput2 input{border-bottom: 0.5px;}
+.BoxInput3 input{border-bottom: 0.5px;}
+.BoxInput input:focus{border: 0.5px solid #40ddd8; color: #000;}
+.BoxInput textarea:focus{border: 0.5px solid #40ddd8; color: #000;}
+
+.BoxInput input::-webkit-input-placeholder{color:#c7c7c7;opacity:1 !important;}
+.BoxInput input::-moz-placeholder{color:#c7c7c7;opacity:1 !important;}
+.BoxInput input:-ms-input-placeholder{color:#c7c7c7;opacity:1 !important;}
+.BoxInput input:-moz-placeholder{color:#c7c7c7;opacity:1 !important;}
+.BoxInput textarea::-webkit-input-placeholder{color:#c7c7c7;opacity:1 !important;}
+.BoxInput textarea::-moz-placeholder{color:#c7c7c7;opacity:1 !important;}
+.BoxInput textarea:-ms-input-placeholder{color:#c7c7c7;opacity:1 !important;}
+.BoxInput textarea:-moz-placeholder{color:#c7c7c7;opacity:1 !important;}
+.BtnSubmit {
+    width: 30%;
+    height: 40px;
+    float: right;
+    background: #ffbb37;
+    border-radius: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    position: relative;
+}
+.BtnSubmit:hover{
+    background: #413a43;
+    color: #fff;
+}
+.BtnSubmit img{margin-left: 10px;}
+
+
+        .formu {
+          width: 100%;
+          right: 0;
+          transition: all 1s;
+        }
+
+        .trigger {
+          height: 100px;
+
+        }
+
+        .formu.close {
+          top: 100%;
+          height: 0;
+        }
+
+        .close {
+          opacity: 0;
+        }
+
+
+
+.seccion_formu {
+  display: none;
+}
+
+.Formulario2 {
+  display:none;
+}
+/* CONTACTO CONTENT */
+
+.Footer{background: #f7f5f7;display: block;height: 136px;padding: 35px 0;text-align: center;}
+.Footer .Text{font-size: 14px;  font-weight: 600; color: rgba(65, 58, 67, 0.4);width: 100%;text-align: center;}
+.Footer{text-align:left;float:left;width:100%;}
+
+.ListRedes{text-align: center;display: block;width: 100%;}
+.ListRedes li{display: inline-block;}
+.ListRedes li a{float: left;padding: 10px 20px;color: rgba(65, 58, 67, 0.4);}
+.ListRedes li a:hover{color: #ffbb37;}
+.ListRedes li a:hover i{color: #ffbb37;}
+.ListRedes li a i{color: rgba(65, 58, 67, 0.4);font-size: 24px;}
+
+.icon-menu-mobile{display:none;padding:7px 0;}
+.icon-menu-mobile img{width:30px;margin-right:15px;}
+.menu-mobile-open{left: 0;background-color:#fff;display:none;position:fixed;width:100%;top:0;z-index:9999;height:100%;}
+.cierra-menu a {
+    float: right;
+    padding: 25px 18px 0 0;
+}
+.cierra-menu a img{
+    display: inline-block;
+width: 24px;
+}
+.cierra-menu a i{font-size:40px;color:#fff;}
+input[type=radio]:checked ~ .check{border:2.5px solid #000;}
+input[type=radio]:checked ~ .check::before{background:#000;}
+input[type=radio]:checked ~ label{color:#757575;}
