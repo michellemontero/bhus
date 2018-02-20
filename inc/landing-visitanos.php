@@ -32,7 +32,7 @@
 	          <img src="http://fabisuarez.com/proyectos/bierhaus/images/reserva/map-icon.png" class="ubicacion" alt="">
 	          <p>Marcelo T. de Alvear 834</p>
 	          <img src="images/dondecomprar/web.png" class="web" alt="">
-	          <p style="margin-top:28px;">www.ontap.com.ar</p>
+	          <p style="margin-top:28px;"><a href="http://www.ontap.com.ar">www.ontap.com.ar</a></p>
 	        </div>
 	      </div>
       </div>

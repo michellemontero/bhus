@@ -1,11 +1,31 @@
 /****************** 4 - RESPONSIVE ***************/
-@media (max-width: 1600px){
-	.Header {
+
+@media (max-width: 2000px){
+	.Formulario {
+		margin-right: 67px;
+	}
+
+	.openform {
+		margin-right: 67px;
+		bottom: 269px;
 	}
 }
-@media (min-width: 1300px){
+
+
+@media (max-width: 1500px){
+
+	.Formulario {
+		right: 61px;
+	}
+
+	.openform {
+		right: 61px;
+	}
+	}
+
 
 }
+
 
 
 @media (max-width:1400px) {
@@ -16,28 +36,11 @@
 }
 
 @media (max-width:1340px) {
-	/* .Formulario {
-		margin-right: 56px;
-	}
 
-	.openform {
-		margin-right: 77px;
-	} */
 
 }
 
 @media (max-width: 1300px){
-	/* .Formulario {
-		bottom: 40px;
-		width: 35%;
-		margin-right: 73px;
-	}
-
-	.openform {
-		bottom: 376px;
-		margin-right: 73px;
-		width: 35%;
-	} */
 
 	.Header-Nav ul li a {
 		padding: 15px 10px;
@@ -65,7 +68,7 @@
 @media (max-width: 1279px){
 	.Formulario {
 		width: 38%;
-		margin-right: 8px;
+		margin-right: -21px;
 		bottom: 40px;
 	}
 
