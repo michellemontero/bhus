@@ -337,42 +337,42 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="Cervezas-Menu col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		            <div class="BoxIcon BtnCervezaGoldfish">
+		            <div class="slidernav BtnCervezaGoldfish">
 						<img class="ImgColor" src="images/cervezas/goldfish-hover.png" alt="">
 					</div>
-					<div class="BoxIcon BtnCervezaAlfred">
+					<div class="slidernav BtnCervezaAlfred">
 						<img class="ImgColor" src="images/cervezas/alfred-hover.png" alt="">
 					</div>
-					<div class="BoxIcon BtnCervezaPiggy">
+					<div class="slidernav BtnCervezaPiggy">
 						<img class="ImgColor" src="images/cervezas/piggy-hover.png" alt="">
 					</div>
-					<div class="BoxIcon BtnCervezaNess">
+					<div class="slidernav BtnCervezaNess">
 						<img class="ImgColor" src="images/cervezas/ness-hover.png" alt="">
 					</div>
-					<div class="BoxIcon BtnCervezaSweetherart">
+					<div class="slidernav BtnCervezaSweetherart">
 						<img class="ImgColor" src="images/cervezas/sweetheart-hover.png" alt="">
 					</div>
-					<div class="BoxIcon BtnCervezaGarota">
+					<div class="slidernav BtnCervezaGarota">
 						<img class="ImgColor" src="images/cervezas/garota-hover.png" alt="">
 					</div>
-					<div class="BoxIcon BtnCervezaSuperStar">
+					<div class="slidernav BtnCervezaSuperStar">
 						<img class="ImgColor" src="images/cervezas/superstar-hover.png" alt="">
 					</div>
-					<div class="BoxIcon BtnCervezaVulcano">
+					<div class="slidernav BtnCervezaVulcano">
 						<img class="ImgColor" src="images/cervezas/vulcano-hover.png" alt="">
 					</div>
-					<div class="BoxIcon BtnCervezaLittle">
+					<div class="slidernav BtnCervezaLittle">
 						<img class="ImgColor" src="images/cervezas/little-devil-hover.png" alt="">
 					</div>
-					<div class="BoxIcon BtnCervezaFoxy">
+					<div class="slidernav BtnCervezaFoxy">
 						<img class="ImgColor" src="images/cervezas/foxy-hover.png" alt="">
 					</div>
-					<div class="BoxIcon BtnCervezaDarkVader">
+					<div class="slidernav BtnCervezaDarkVader">
 						<img class="ImgColor" src="images/cervezas/dark-vader-hover.png" alt="">
 					</div>
-					<div class="BoxIcon BtnCervezaPanther">
+					<div class="slidernav BtnCervezaPanther">
 						<img class="ImgColor" src="images/cervezas/panther-hover.png" alt="">
-					</div>     
+					</div>
 		        </div>
 			</div>
 		</div>

@@ -858,11 +858,11 @@ padding-right: 0px;
     width: 104%;
 }
 		body{margin-top: 59px;}
-	.Cervezas-Menu .BoxIcon{width: 50%;float: left;cursor: pointer;border-bottom: 1px solid #cdcdcd;}
-	.Cervezas-Menu .BoxIcon:nth-child(odd){
+	.Cervezas-Menu .slidernav{width: 50%;float: left;cursor: pointer;border-bottom: 1px solid #cdcdcd;}
+	.Cervezas-Menu .slidernav:nth-child(odd){
             border-right: 1px solid #cdcdcd;
         }
-	.Cervezas-Menu .BoxIcon:hover{opacity: 0.5;}
+	.Cervezas-Menu .slidernav:hover{opacity: 0.5;}
 	.Visitanos-Left .Seccion-Header .Title{text-align: center;}
 	.Nosotros-Text{padding: 0px;text-align: center;}
 

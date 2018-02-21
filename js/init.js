@@ -83,8 +83,10 @@ $(document).ready(function(){
     $('.sliderCervezasIcon').slick({
       slidesToShow: 8,
       slidesToScroll: 1,
-      arrows: false,
-      draggable: false,
+      arrows: true,
+      draggable: true,
+      centerMode: true,
+      centerPadding: '100px',
       infinite: true,
       asNavFor: '.fadeCervezas',
       focusOnSelect: true,
@@ -108,58 +110,71 @@ $(document).ready(function(){
       ]
     });
 
+    // $('.fadeCervezas').on('afterChange', function(event, slick, currentSlide) {
+    //  	$('.slidernav').slick('slickGoTo', currentSlide);
+    //  	var currrentNavSlideElem = '.slidernav .slick-slide[data-slick-index="' + currentSlide + '"]';
+    //  	$('.slidernav div').removeClass('active');
+    //  	$(currrentNavSlideElem).addClass('i');
+    // });
+    //
+    // $('.slidernav').on('click', '.slick-slide', function(event) {
+    //  	event.preventDefault();
+    //  	var goToSingleSlide = $(this).data('slick-index');
+    //
+ 	  //   $('.fadeCervezas').slick('slickGoTo', goToSingleSlide);
+    // });
 
-    $('.fadeCervezas').on('beforeChange', function(event,slick,slide,nextSlide) {
-      var boton = $('.slick-current.slick-active').children()[0].classList[0];
-      // var boton = $('.active')[0].classList[0];
-
-      switch (boton) {
-        case "BtnSweet":
-        BtnSweet(boton);
-        break;
-        case "BtnGoldFish":
-        BtnGoldFish(boton);
-        break;
-        case "BtnAlfred":
-        BtnAlfred(boton);
-        break;
-        case "BtnPiggy":
-        BtnPiggy(boton);
-        break;
-        case "BtnNess":
-        BtnNess(boton);
-        break;
-        case "BtnGarota":
-        BtnGarota(boton);
-        break;
-        case "BtnSuperStar":
-        BtnSuperStar(boton);
-        break;
-        case "BtnVulcano":
-        BtnVulcano(boton);
-        break;
-        case "BtnLittle":
-        BtnLittle(boton);
-        break;
-        case "BtnFoxy":
-        BtnFoxy(boton);
-        break;
-        case "BtnDark":
-        BtnDark(boton);
-        break;
-        case "BtnPanther":
-        BtnPanther(boton);
-        break;
-        default:
-          console.log("Something went horribly wrong...");
-        break;
-      }
-
-
-
-
-
-    });
+    // $('.fadeCervezas').on('beforeChange', function(event,slick,slide,nextSlide) {
+    //   var boton = $('.slick-current.slick-active').children()[0].classList[0];
+    //   // var boton = $('.active')[0].classList[0];
+    //
+    //   switch (boton) {
+    //     case "BtnSweet":
+    //     BtnSweet(boton);
+    //     break;
+    //     case "BtnGoldFish":
+    //     BtnGoldFish(boton);
+    //     break;
+    //     case "BtnAlfred":
+    //     BtnAlfred(boton);
+    //     break;
+    //     case "BtnPiggy":
+    //     BtnPiggy(boton);
+    //     break;
+    //     case "BtnNess":
+    //     BtnNess(boton);
+    //     break;
+    //     case "BtnGarota":
+    //     BtnGarota(boton);
+    //     break;
+    //     case "BtnSuperStar":
+    //     BtnSuperStar(boton);
+    //     break;
+    //     case "BtnVulcano":
+    //     BtnVulcano(boton);
+    //     break;
+    //     case "BtnLittle":
+    //     BtnLittle(boton);
+    //     break;
+    //     case "BtnFoxy":
+    //     BtnFoxy(boton);
+    //     break;
+    //     case "BtnDark":
+    //     BtnDark(boton);
+    //     break;
+    //     case "BtnPanther":
+    //     BtnPanther(boton);
+    //     break;
+    //     default:
+    //       console.log("Something went horribly wrong...");
+    //     break;
+    //   }
+    //
+    //
+    //
+    //
+    //
+    // });
 
 
   $(".sliderEstadisticas").slick({
@@ -219,21 +234,21 @@ $(document).ready(function(){
 
   });
 
-  $( ".BtnSweet" ).click(() => BtnSweet('BtnSweet'));
-  $( ".BtnGoldFish" ).click(() => BtnGoldFish('BtnGoldFish'));
-  $( ".BtnAlfred" ).click(() => BtnAlfred('BtnAlfred'));
-  $( ".BtnPiggy" ).click(() => BtnPiggy('BtnPiggy'));
-  $( ".BtnNess" ).click(() => BtnNess('BtnNess'));
-  $( ".BtnGarota" ).click(() => BtnGarota('BtnGarota'));
-  $( ".BtnSuperStar" ).click(() => BtnSuperStar('BtnSuperStar'));
-  $( ".BtnVulcano" ).click(() => BtnVulcano('BtnVulcano'));
-  $( ".BtnLittle" ).click(() => BtnLittle('BtnLittle'));
-  $( ".BtnFoxy" ).click(() => BtnFoxy('BtnFoxy'));
-  $( ".BtnDark" ).click(() => BtnDark('BtnDark'));
-  $( ".BtnPanther" ).click(() => BtnPanther('BtnPanther'));
-
-
-  function BtnSweet(boton) {
+  // $( ".BtnSweet" ).click(() => BtnSweet('BtnSweet'));
+  // $( ".BtnGoldFish" ).click(() => BtnGoldFish('BtnGoldFish'));
+  // $( ".BtnAlfred" ).click(() => BtnAlfred('BtnAlfred'));
+  // $( ".BtnPiggy" ).click(() => BtnPiggy('BtnPiggy'));
+  // $( ".BtnNess" ).click(() => BtnNess('BtnNess'));
+  // $( ".BtnGarota" ).click(() => BtnGarota('BtnGarota'));
+  // $( ".BtnSuperStar" ).click(() => BtnSuperStar('BtnSuperStar'));
+  // $( ".BtnVulcano" ).click(() => BtnVulcano('BtnVulcano'));
+  // $( ".BtnLittle" ).click(() => BtnLittle('BtnLittle'));
+  // $( ".BtnFoxy" ).click(() => BtnFoxy('BtnFoxy'));
+  // $( ".BtnDark" ).click(() => BtnDark('BtnDark'));
+  // $( ".BtnPanther" ).click(() => BtnPanther('BtnPanther'));
+  //
+  //
+  $( ".BtnSweet" ).click(function() {
     $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");
     $( ".BotellaCerveza" ).removeClass("animated bounceInUp");
     $( ".Cervezas-Info" ).removeClass("animated fadeInUp");
@@ -242,28 +257,18 @@ $(document).ready(function(){
     $( ".CervezaSweetherart .BotellaCerveza" ).addClass("animated bounceInUp");
     $( ".CervezaSweetherart .Cervezas-Info" ).addClass("animated fadeInUp");
 
-    $( ".BoxIcon div" ).removeClass("active");
-    $("." + boton).addClass("active");
+    $( ".slidernav div" ).removeClass("active");
+    $( this ).addClass("active");
     $( ".Cervezas-Content" ).removeClass("CervezaActive");
     $( ".CervezaSweetherart" ).addClass("CervezaActive");
-  }
+  });
 
-  function BtnGoldFish(boton) {
-    $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");
-    $( ".BotellaCerveza" ).removeClass("animated bounceInUp");
-    $( ".Cervezas-Info" ).removeClass("animated fadeInUp");
+// $('slick-arrow').click(function() {
+//   $( ".slidernav div" ).removeClass("active");
+//   $('.BtnGoldfish').addClass("active");
+// });
 
-    $( ".CervezaGoldFish .Cervezas-Img img" ).addClass("animated zoomInUp");
-    $( ".CervezaGoldFish .BotellaCerveza" ).addClass("animated bounceInUp");
-    $( ".CervezaGoldFish .Cervezas-Info" ).addClass("animated fadeInUp");
-
-    $( ".BoxIcon div" ).removeClass("active");
-    $( "." + boton ).addClass("active");
-    $( ".Cervezas-Content" ).removeClass("CervezaActive");
-    $( ".CervezaGoldFish" ).addClass("CervezaActive");
-  }
-
-  function BtnAlfred(boton) {
+  $( ".BtnAlfred" ).click(function() {
     $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");
     $( ".BotellaCerveza" ).removeClass("animated bounceInUp");
     $( ".Cervezas-Info" ).removeClass("animated fadeInUp");
@@ -272,13 +277,14 @@ $(document).ready(function(){
     $( ".CervezaAlfred .BotellaCerveza" ).addClass("animated bounceInUp");
     $( ".CervezaAlfred .Cervezas-Info" ).addClass("animated fadeInUp");
 
-    $( ".BoxIcon div" ).removeClass("active");
-    $( "." + boton ).addClass("active");
+    $( ".slidernav div" ).removeClass("active");
+    $( this ).addClass("active");
     $( ".Cervezas-Content" ).removeClass("CervezaActive");
     $( ".CervezaAlfred" ).addClass("CervezaActive");
-  }
 
-  function BtnPiggy(boton) {
+  });
+
+  $( ".BtnPiggy" ).click(function() {
     $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");
     $( ".BotellaCerveza" ).removeClass("animated bounceInUp");
     $( ".Cervezas-Info" ).removeClass("animated fadeInUp");
@@ -287,13 +293,13 @@ $(document).ready(function(){
     $( ".CervezaPiggy .BotellaCerveza" ).addClass("animated bounceInUp");
     $( ".CervezaPiggy .Cervezas-Info" ).addClass("animated fadeInUp");
 
-    $( ".BoxIcon div" ).removeClass("active");
-    $( "." + boton ).addClass("active");
+    $( ".slidernav div" ).removeClass("active");
+    $( this ).addClass("active");
     $( ".Cervezas-Content" ).removeClass("CervezaActive");
     $( ".CervezaPiggy" ).addClass("CervezaActive");
-  }
+  });
 
-  function BtnNess(boton) {
+  $( ".BtnNess" ).click(function() {
     $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");
     $( ".BotellaCerveza" ).removeClass("animated bounceInUp");
     $( ".Cervezas-Info" ).removeClass("animated fadeInUp");
@@ -302,13 +308,28 @@ $(document).ready(function(){
     $( ".CervezaNess .BotellaCerveza" ).addClass("animated bounceInUp");
     $( ".CervezaNess .Cervezas-Info" ).addClass("animated fadeInUp");
 
-    $( ".BoxIcon div" ).removeClass("active");
-    $( "." + boton ).addClass("active");
+    $( ".slidernav div" ).removeClass("active");
+    $( this ).addClass("active");
     $( ".Cervezas-Content" ).removeClass("CervezaActive");
     $( ".CervezaNess" ).addClass("CervezaActive");
-  }
+  });
 
-  function BtnGarota(boton) {
+  $( ".BtnGoldFish" ).click(function() {
+    $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");
+    $( ".BotellaCerveza" ).removeClass("animated bounceInUp");
+    $( ".Cervezas-Info" ).removeClass("animated fadeInUp");
+
+    $( ".CervezaGoldFish .Cervezas-Img img" ).addClass("animated zoomInUp");
+    $( ".CervezaGoldFish .BotellaCerveza" ).addClass("animated bounceInUp");
+    $( ".CervezaGoldFish .Cervezas-Info" ).addClass("animated fadeInUp");
+
+    $( ".slidernav div" ).removeClass("active");
+    $( this ).addClass("active");
+    $( ".Cervezas-Content" ).removeClass("CervezaActive");
+    $( ".CervezaGoldFish" ).addClass("CervezaActive");
+  });
+
+  $( ".BtnGarota" ).click(function() {
     $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");
     $( ".BotellaCerveza" ).removeClass("animated bounceInUp");
     $( ".Cervezas-Info" ).removeClass("animated fadeInUp");
@@ -317,13 +338,13 @@ $(document).ready(function(){
     $( ".CervezaGarota .BotellaCerveza" ).addClass("animated bounceInUp");
     $( ".CervezaGarota .Cervezas-Info" ).addClass("animated fadeInUp");
 
-    $( ".BoxIcon div" ).removeClass("active");
-    $( "." + boton ).addClass("active");
+    $( ".slidernav div" ).removeClass("active");
+    $( this ).addClass("active");
     $( ".Cervezas-Content" ).removeClass("CervezaActive");
     $( ".CervezaGarota" ).addClass("CervezaActive");
-  }
+  });
 
-  function BtnSuperStar(boton) {
+  $( ".BtnSuperStar" ).click(function() {
     $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");
     $( ".BotellaCerveza" ).removeClass("animated bounceInUp");
     $( ".Cervezas-Info" ).removeClass("animated fadeInUp");
@@ -332,13 +353,13 @@ $(document).ready(function(){
     $( ".CervezaSuperStar .BotellaCerveza" ).addClass("animated bounceInUp");
     $( ".CervezaSuperStar .Cervezas-Info" ).addClass("animated fadeInUp");
 
-    $( ".BoxIcon div" ).removeClass("active");
-    $( "." + boton ).addClass("active");
+    $( ".slidernav div" ).removeClass("active");
+    $( this ).addClass("active");
     $( ".Cervezas-Content" ).removeClass("CervezaActive");
     $( ".CervezaSuperStar" ).addClass("CervezaActive");
-  }
+  });
 
-  function BtnVulcano(boton) {
+  $( ".BtnVulcano" ).click(function() {
     $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");
     $( ".BotellaCerveza" ).removeClass("animated bounceInUp");
     $( ".Cervezas-Info" ).removeClass("animated fadeInUp");
@@ -347,13 +368,13 @@ $(document).ready(function(){
     $( ".CervezaVulcano .BotellaCerveza" ).addClass("animated bounceInUp");
     $( ".CervezaVulcano .Cervezas-Info" ).addClass("animated fadeInUp");
 
-    $( ".BoxIcon div" ).removeClass("active");
-    $( "." + boton ).addClass("active");
+    $( ".slidernav div" ).removeClass("active");
+    $( this ).addClass("active");
     $( ".Cervezas-Content" ).removeClass("CervezaActive");
     $( ".CervezaVulcano" ).addClass("CervezaActive");
-  }
+  });
 
-  function BtnLittle(boton) {
+  $( ".BtnLittle" ).click(function() {
     $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");
     $( ".BotellaCerveza" ).removeClass("animated bounceInUp");
     $( ".Cervezas-Info" ).removeClass("animated fadeInUp");
@@ -362,13 +383,13 @@ $(document).ready(function(){
     $( ".CervezaLittle .BotellaCerveza" ).addClass("animated bounceInUp");
     $( ".CervezaLittle .Cervezas-Info" ).addClass("animated fadeInUp");
 
-    $( ".BoxIcon div" ).removeClass("active");
-    $( "." + boton ).addClass("active");
+    $( ".slidernav div" ).removeClass("active");
+    $( this ).addClass("active");
     $( ".Cervezas-Content" ).removeClass("CervezaActive");
     $( ".CervezaLittle" ).addClass("CervezaActive");
-  }
+  });
 
-  function BtnFoxy(boton) {
+  $( ".BtnFoxy" ).click(function() {
     $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");
     $( ".BotellaCerveza" ).removeClass("animated bounceInUp");
     $( ".Cervezas-Info" ).removeClass("animated fadeInUp");
@@ -377,13 +398,13 @@ $(document).ready(function(){
     $( ".CervezaFoxy .BotellaCerveza" ).addClass("animated bounceInUp");
     $( ".CervezaFoxy .Cervezas-Info" ).addClass("animated fadeInUp");
 
-    $( ".BoxIcon div" ).removeClass("active");
-    $( "." + boton ).addClass("active");
+    $( ".slidernav div" ).removeClass("active");
+    $( this ).addClass("active");
     $( ".Cervezas-Content" ).removeClass("CervezaActive");
     $( ".CervezaFoxy" ).addClass("CervezaActive");
-  }
+  });
 
-  function BtnDark(boton) {
+  $( ".BtnDark" ).click(function() {
     $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");
     $( ".BotellaCerveza" ).removeClass("animated bounceInUp");
     $( ".Cervezas-Info" ).removeClass("animated fadeInUp");
@@ -392,13 +413,13 @@ $(document).ready(function(){
     $( ".CervezaDark .BotellaCerveza" ).addClass("animated bounceInUp");
     $( ".CervezaDark .Cervezas-Info" ).addClass("animated fadeInUp");
 
-    $( ".BoxIcon div" ).removeClass("active");
-    $( "." + boton ).addClass("active");
+    $( ".slidernav div" ).removeClass("active");
+    $( this ).addClass("active");
     $( ".Cervezas-Content" ).removeClass("CervezaActive");
     $( ".CervezaDark" ).addClass("CervezaActive");
-  }
+  });
 
-  function BtnPanther(boton) {
+  $( ".BtnPanther" ).click(function() {
     $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");
     $( ".BotellaCerveza" ).removeClass("animated bounceInUp");
     $( ".Cervezas-Info" ).removeClass("animated fadeInUp");
@@ -407,11 +428,12 @@ $(document).ready(function(){
     $( ".CervezaPanter .BotellaCerveza" ).addClass("animated bounceInUp");
     $( ".CervezaPanter .Cervezas-Info" ).addClass("animated fadeInUp");
 
-    $( ".BoxIcon div" ).removeClass("active");
-    $( "." + boton ).addClass("active");
+    $( ".slidernav div" ).removeClass("active");
+    $( this ).addClass("active");
     $( ".Cervezas-Content" ).removeClass("CervezaActive");
     $( ".CervezaPanter" ).addClass("CervezaActive");
-  }
+  });
+
 
 
   $( ".icon-menu-mobile" ).click(function() {

@@ -4,94 +4,81 @@
 			<div class="Cervezas-Menu col-xs-12 col-sm-12 col-md-12 col-lg-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s">
 				<img class="Line2" src="images/linea2.png" alt="">
 				<div class="sliderCervezasIcon ListCervezas">
-
-						<div class="BoxIcon">
-            	<div class="BtnSweet active">
-              	<img class="ImgColor" src="images/cervezas/sweetheart-hover.png" alt="">
-              	<img class="ImgGris" src="images/cervezas/sweetheart.png" alt="">
+            	<div class="slidernav">
+								<div class="BtnSweet">
+									<img class="ImgColor" src="images/cervezas/sweetheart-hover.png" alt="">
+	              	<img class="ImgGris" src="images/cervezas/sweetheart.png" alt="">
+								</div>
             	</div>
-            </div>
-
-			  		<div class="BoxIcon">
-							<div class="BtnGoldFish">
-								<img class="ImgColor" src="images/cervezas/goldfish-hover.png" alt="">
-								<img class="ImgGris" src="images/cervezas/goldfish.png" alt="">
+							<div class="slidernav">
+								<div class="BtnGoldFish">
+									<img class="ImgColor" src="images/cervezas/goldfish-hover.png" alt="">
+									<img class="ImgGris" src="images/cervezas/goldfish.png" alt="">
+								</div>
 					  	</div>
+						<div class="slidernav">
+							<div class="BtnAlfred">
+								<img class="ImgColor" src="images/cervezas/alfred-hover.png" alt="">
+								<img class="ImgGris" src="images/cervezas/alfred.png" alt="">
+							</div>
 						</div>
-
-					<div class="BoxIcon">
-						<div class="BtnAlfred">
-							<img class="ImgColor" src="images/cervezas/alfred-hover.png" alt="">
-							<img class="ImgGris" src="images/cervezas/alfred.png" alt="">
+						<div class="slidernav">
+							<div class="BtnPiggy">
+								<img class="ImgColor" src="images/cervezas/piggy-hover.png" alt="">
+								<img class="ImgGris" src="images/cervezas/piggy.png" alt="">
+							</div>
 						</div>
-					</div>
-
-					<div class="BoxIcon">
-						<div class="BtnPiggy">
-							<img class="ImgColor" src="images/cervezas/piggy-hover.png" alt="">
-							<img class="ImgGris" src="images/cervezas/piggy.png" alt="">
+						<div class="slidernav">
+							<div class="BtnNess">
+								<img class="ImgColor" src="images/cervezas/ness-hover.png" alt="">
+								<img class="ImgGris" src="images/cervezas/ness.png" alt="">
+							</div>
 						</div>
-					</div>
-
-					<div class="BoxIcon">
-						<div class="BtnNess">
-							<img class="ImgColor" src="images/cervezas/ness-hover.png" alt="">
-							<img class="ImgGris" src="images/cervezas/ness.png" alt="">
+						<div class="slidernav">
+							<div class="BtnGarota">
+								<img class="ImgColor" src="images/cervezas/garota-hover.png" alt="">
+								<img class="ImgGris" src="images/cervezas/garota.png" alt="">
+							</div>
 						</div>
-					</div>
-
-					<div class="BoxIcon">
-						<div class="BtnGarota">
-							<img class="ImgColor" src="images/cervezas/garota-hover.png" alt="">
-							<img class="ImgGris" src="images/cervezas/garota.png" alt="">
+						<div class="slidernav">
+							<div class="BtnSuperStar">
+								<img class="ImgColor" src="images/cervezas/superstar-hover.png" alt="">
+								<img class="ImgGris" src="images/cervezas/superstar.png" alt="">
+							</div>
 						</div>
-					</div>
-
-					<div class="BoxIcon">
-						<div class="BtnSuperStar slide1">
-							<img class="ImgColor" src="images/cervezas/superstar-hover.png" alt="">
-							<img class="ImgGris" src="images/cervezas/superstar.png" alt="">
+						<div class="slidernav">
+							<div class="BtnVulcano">
+								<img class="ImgColor" src="images/cervezas/vulcano-hover.png" alt="">
+								<img class="ImgGris" src="images/cervezas/vulcano.png" alt="">
+							</div>
 						</div>
-					</div>
-
-					<div class="BoxIcon">
-						<div class="BtnVulcano">
-							<img class="ImgColor" src="images/cervezas/vulcano-hover.png" alt="">
-							<img class="ImgGris" src="images/cervezas/vulcano.png" alt="">
+						<div class="slidernav">
+							<div class="BtnLittle">
+								<img class="ImgColor" src="images/cervezas/little-devil-hover.png" alt="">
+								<img class="ImgGris" src="images/cervezas/little-devil.png" alt="">
+							</div>
 						</div>
-					</div>
-
-					<div class="BoxIcon">
-						<div class="BtnLittle">
-							<img class="ImgColor" src="images/cervezas/little-devil-hover.png" alt="">
-							<img class="ImgGris" src="images/cervezas/little-devil.png" alt="">
+						<div class="slidernav">
+							<div class="BtnFoxy">
+								<img class="ImgColor" src="images/cervezas/foxy-hover.png" alt="">
+								<img class="ImgGris" src="images/cervezas/foxy.png" alt="">
+							</div>
 						</div>
-					</div>
-					<div class="BoxIcon">
-						<div class="BtnFoxy">
-							<img class="ImgColor" src="images/cervezas/foxy-hover.png" alt="">
-							<img class="ImgGris" src="images/cervezas/foxy.png" alt="">
+						<div class="slidernav">
+							<div class="BtnDark">
+								<img class="ImgColor" src="images/cervezas/dark-vader-hover.png" alt="">
+								<img class="ImgGris" src="images/cervezas/dark-vader.png" alt="">
+							</div>
 						</div>
-					</div>
-					<div class="BoxIcon">
-						<div class="BtnDark">
-							<img class="ImgColor" src="images/cervezas/dark-vader-hover.png" alt="">
-							<img class="ImgGris" src="images/cervezas/dark-vader.png" alt="">
+						<div class="slidernav">
+							<div class="BtnPanther">
+								<img class="ImgColor" src="images/cervezas/panther-hover.png" alt="">
+								<img class="ImgGris" src="images/cervezas/panther.png" alt="">
+							</div>
 						</div>
-					</div>
-					<div class="BoxIcon">
-						<div class="BtnPanther">
-							<img class="ImgColor" src="images/cervezas/panther-hover.png" alt="">
-							<img class="ImgGris" src="images/cervezas/panther.png" alt="">
-						</div>
-					</div>
 		        </div>
 				<img class="Line3" src="images/linea1.png" alt="">
-			</div>
-			</div>
 
-
-		<div class="row">
 			<div class="fadeCervezas">
 
                 <!--  Sweetheart -->
