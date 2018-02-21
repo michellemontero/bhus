@@ -65,7 +65,7 @@ a:visited {color: #414141;}
     width: 100%;
     position: relative;
     left: 0;
-    top: -128px;
+    top: -133px;
 }
 .Line5{
     width: 100%;
@@ -272,6 +272,7 @@ width: 100%;
 /* CERVEZAS */
 .Seccion-Cervezas{
     background: #ffffff;
+    overflow: hidden;
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -349,7 +350,7 @@ background: #fbfafb;
     position: absolute;
     width: 320px;
     left: 50%;
-    margin-left: -90px;
+    margin-left: -100px;
     z-index: 2;
     top: 20%;
 }

@@ -81,9 +81,9 @@ $(document).ready(function(){
 
 
     $('.sliderCervezasIcon').slick({
-      slidesToShow: 8,
+      slidesToShow: 7,
       slidesToScroll: 1,
-      arrows: true,
+      arrows: false,
       draggable: true,
       centerMode: true,
       centerPadding: '100px',
@@ -110,19 +110,19 @@ $(document).ready(function(){
       ]
     });
 
-    // $('.fadeCervezas').on('afterChange', function(event, slick, currentSlide) {
-    //  	$('.slidernav').slick('slickGoTo', currentSlide);
-    //  	var currrentNavSlideElem = '.slidernav .slick-slide[data-slick-index="' + currentSlide + '"]';
-    //  	$('.slidernav div').removeClass('active');
-    //  	$(currrentNavSlideElem).addClass('i');
-    // });
-    //
-    // $('.slidernav').on('click', '.slick-slide', function(event) {
-    //  	event.preventDefault();
-    //  	var goToSingleSlide = $(this).data('slick-index');
-    //
- 	  //   $('.fadeCervezas').slick('slickGoTo', goToSingleSlide);
-    // });
+
+
+    $('div[data-slick-index=0] div').addClass('active');
+
+    $('.fadeCervezas').on('beforeChange', function(event,slick,slide,nextSlide) {
+        $('div[data-slick-index='+slide+'] div').removeClass('active');
+        if( $('div[data-slick-index='+nextSlide+'] div' ).hasClass( "foo" )){
+
+        }else{
+          $('div[data-slick-index='+nextSlide+'] div').addClass('active');
+        }
+    });
+
 
     // $('.fadeCervezas').on('beforeChange', function(event,slick,slide,nextSlide) {
     //   var boton = $('.slick-current.slick-active').children()[0].classList[0];
@@ -261,12 +261,11 @@ $(document).ready(function(){
     $( this ).addClass("active");
     $( ".Cervezas-Content" ).removeClass("CervezaActive");
     $( ".CervezaSweetherart" ).addClass("CervezaActive");
-  });
 
-// $('slick-arrow').click(function() {
-//   $( ".slidernav div" ).removeClass("active");
-//   $('.BtnGoldfish').addClass("active");
-// });
+    $('.fadeCervezas').on('click','.slick-next', function(){
+    $('.slidernav div').removeClass('active');
+    });
+  });
 
   $( ".BtnAlfred" ).click(function() {
     $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");

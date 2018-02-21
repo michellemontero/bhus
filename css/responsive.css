@@ -9,6 +9,18 @@
 		margin-right: 67px;
 		bottom: 269px;
 	}
+
+}
+
+@media (min-width: 1400px){
+
+
+	.Cervezas-Img img {
+    margin-right: 7%;
+	}
+
+
+
 }
 
 
@@ -21,8 +33,6 @@
 	.openform {
 		right: 61px;
 	}
-	}
-
 
 }
 
