@@ -81,7 +81,7 @@ $(document).ready(function(){
 
 
     $('.sliderCervezasIcon').slick({
-      slidesToShow: 7,
+      slidesToShow: 8,
       slidesToScroll: 1,
       arrows: false,
       draggable: true,
@@ -92,9 +92,19 @@ $(document).ready(function(){
       focusOnSelect: true,
       responsive: [
         {
+          breakpoint: 1200,
+          settings: {
+            centerMode: true,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            infinite: true
+          }
+        },
+        {
           breakpoint: 990,
           settings: {
-            slidesToShow: 5,
+            centerMode: true,
+            slidesToShow: 4,
             slidesToScroll: 1,
             infinite: true
           }
@@ -169,11 +179,6 @@ $(document).ready(function(){
     //       console.log("Something went horribly wrong...");
     //     break;
     //   }
-    //
-    //
-    //
-    //
-    //
     // });
 
 
@@ -246,8 +251,8 @@ $(document).ready(function(){
   // $( ".BtnFoxy" ).click(() => BtnFoxy('BtnFoxy'));
   // $( ".BtnDark" ).click(() => BtnDark('BtnDark'));
   // $( ".BtnPanther" ).click(() => BtnPanther('BtnPanther'));
-  //
-  //
+
+
   $( ".BtnSweet" ).click(function() {
     $( ".Cervezas-Img img" ).removeClass("animated zoomInUp");
     $( ".BotellaCerveza" ).removeClass("animated bounceInUp");
